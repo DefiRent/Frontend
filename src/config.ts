@@ -25,12 +25,12 @@ const configurations: { [env: string]: Configuration } = {
     masonryLaunchesAt: new Date('2020-12-11T00:00:00Z'),
     refreshInterval: 10000,
   },
-  production: {
+    production: {
     chainId: ChainId.MAINNET,
-    networkName: 'Fantom Opera Mainnet',
-    ftmscanUrl: 'https://ftmscan.com',
-    defaultProvider: 'https://rpc.ftm.tools/',
-    deployments: require('./rent-control/deployments/deployments.mainnet.json'),
+    networkName: 'Fantom Opera Mainnet - Testnet',
+    ftmscanUrl: 'https://testnet.ftmscan.com',
+    defaultProvider: 'https://rpc.testnet.fantom.network/',
+    deployments: require('./rent-control/deployments/deployments.testing.json'),
     externalTokens: {
       WFTM: ['0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83', 18],
       FUSDT: ['0x04068DA6C83AFCFA0e13ba15A6696662335D5B75', 6], // This is actually usdc on mainnet not fusdt
