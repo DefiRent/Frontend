@@ -26,7 +26,7 @@ const configurations: { [env: string]: Configuration } = {
     refreshInterval: 10000,
   },
     production: {
-    chainId: ChainId.MAINNET,
+    chainId: ChainId.FTMTESTNET,
     networkName: 'Fantom Opera Mainnet - Testnet',
     ftmscanUrl: 'https://testnet.ftmscan.com',
     defaultProvider: 'https://rpc.testnet.fantom.network/',
