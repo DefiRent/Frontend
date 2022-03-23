@@ -27,7 +27,7 @@ const configurations: { [env: string]: Configuration } = {
   },
     production: {
     chainId: ChainId.FTMTESTNET,
-    networkName: 'Fantom Opera Mainnet - Testnet',
+    networkName: 'Fantom Testnet',
     ftmscanUrl: 'https://testnet.ftmscan.com',
     defaultProvider: 'https://rpc.testnet.fantom.network/',
     deployments: require('./rent-control/deployments/deployments.testing.json'),
